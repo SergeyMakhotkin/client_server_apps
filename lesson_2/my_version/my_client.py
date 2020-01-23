@@ -48,13 +48,13 @@ def main():
 
     '''настройка получения аргументов из командной строки'''
     try:
-        server_address = argv[1]
-        server_port = int(argv[2])
-        if not (1024 <= server_port <= 65535):
+        serv_addr = argv[1]
+        serv_port = int(argv[2])
+        if not (1024 <= serv_port <= 65535):
             raise ValueError
     except IndexError:
-        server_address = DEFAULT_IP_ADDRESS
-        server_port = DEFAULT_PORT
+        serv_addr = DEFAULT_IP_ADDRESS
+        serv_port = DEFAULT_PORT
     except ValueError:
         print("Вторым параметром должен быть указан порт (число в диапазоне 1024 - 65535")
         exit(1)
@@ -62,7 +62,7 @@ def main():
     # Создаем сокет, обмениваемся сообщениями с сервером
 
     client_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    client_sock.connect((server_address, server_port))
+    client_sock.connect((serv_addr, serv_port))
     message = generate_presence_msg()
     send_message(client_sock, message)
     try:

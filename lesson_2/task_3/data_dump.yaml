@@ -1,0 +1,16 @@
+- - первый элемент списка
+  - второй элемент списка
+  - третий элемент списка
+- 365
+- white chess king: ♔
+  white chess queen: ♕
+  white chess rook: ♖
+  white chess bishop: ♗
+  white chess knight: ♘
+  white chess pawn: ♙
+  black chess king: ♚
+  black chess queen: ♛
+  black chess rook: ♜
+  black chess bishop: ♝
+  black chess knight: ♞
+  black chess pawn: ♟

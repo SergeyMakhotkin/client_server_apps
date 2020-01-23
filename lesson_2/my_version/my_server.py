@@ -4,7 +4,7 @@ import socket
 import argparse
 from json import JSONDecodeError
 from my_package.settings import ACTION, ACCOUNT_NAME, RESPONSE, DEFAULT_QUEUE_SIZE, PRESENCE, \
-    TIME, USER, ERROR, DEFAULT_PORT, DEFAULT_IP_ADDRESS, JSON_CHECK_FAULT
+    TIME, USER, ERROR, DEFAULT_PORT, DEFAULT_IP_ADDRESS
 from my_package.common_functions import get_message, send_message, check_port_range
 
 
@@ -20,8 +20,8 @@ def process_client_message(message):
             and USER in message and message[USER][ACCOUNT_NAME] == 'Guest':
         return {RESPONSE: 200}
     return {
-        JSON_CHECK_FAULT: 400,
-        ERROR: 'Bad Request.'
+        RESPONSE: 400,
+        ERROR: 'Bad Request'
     }
 
 

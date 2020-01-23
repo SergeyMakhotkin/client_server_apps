@@ -31,6 +31,8 @@ def send_message(socket, message):
     :return:
     '''
 
+    if not isinstance(message, dict):
+        raise TypeError
     json_message = json.dumps(message)
     encoded_json_message = json_message.encode(ENCODING_TYPE)
     socket.send(encoded_json_message)
