@@ -1,0 +1,10 @@
+2020-01-25 14:53:00,534 CRITICAL client_log_config.py <module> Критическая ошибка
+2020-01-25 14:53:00,534 ERROR client_log_config.py <module> Ошибка
+2020-01-25 14:53:00,534 WARNING client_log_config.py <module> Предупреждение
+2020-01-25 14:53:00,534 INFO client_log_config.py <module> Инфо
+2020-01-25 14:53:00,534 DEBUG client_log_config.py <module> дебаг
+2020-01-25 15:42:50,802 INFO my_client.py main Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777
+2020-01-25 15:42:50,878 DEBUG my_client.py generate_presence_msg Сформировано presence сообщение для пользователя Guest
+2020-01-25 15:42:50,881 DEBUG my_client.py process_server_ans От сервера получен ответ "200 : OK"
+2020-01-25 15:42:50,883 INFO my_client.py main Принят ответ от сервера 200 : OK
+2020-01-25 15:42:50,884 DEBUG my_client.py main Соединение с сервером 127.0.0.1:7777 закрыто

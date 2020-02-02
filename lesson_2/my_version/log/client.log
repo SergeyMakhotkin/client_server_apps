@@ -1,0 +1,31 @@
+2020-01-31 23:26:26,928 INFO my_client.py main Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777
+2020-01-31 23:29:07,164 INFO my_client.py main Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777
+2020-01-31 23:29:26,545 INFO my_client.py main Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777
+2020-01-31 23:29:26,547 DEBUG my_client.py generate_presence_msg Сформировано presence сообщение для пользователя Guest
+2020-01-31 23:29:26,549 DEBUG my_client.py process_server_ans От сервера получен ответ "200 : OK"
+2020-01-31 23:29:26,562 INFO my_client.py main Принят ответ от сервера 200 : OK
+2020-01-31 23:29:26,562 DEBUG my_client.py main Соединение с сервером 127.0.0.1:7777 закрыто
+2020-02-01 10:27:43,468 INFO my_client.py main Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777
+2020-02-01 10:28:05,126 DEBUG my_client.py generate_presence_msg Сформировано presence сообщение для пользователя Guest
+2020-02-01 10:28:13,371 DEBUG my_client.py process_server_ans От сервера получен ответ "200 : OK"
+2020-02-01 10:28:36,736 INFO my_client.py main Принят ответ от сервера 200 : OK
+2020-02-01 10:28:47,012 DEBUG my_client.py main Соединение с сервером 127.0.0.1:7777 закрыто
+2020-02-01 10:42:54,807 INFO my_client.py main Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777
+2020-02-01 10:42:54,809 DEBUG my_client.py generate_presence_msg Сформировано presence сообщение для пользователя Guest
+2020-02-01 10:42:54,812 DEBUG my_client.py process_server_ans От сервера получен ответ "200 : OK"
+2020-02-01 10:42:54,812 INFO my_client.py main Принят ответ от сервера 200 : OK
+2020-02-01 10:42:54,812 DEBUG my_client.py main Соединение с сервером 127.0.0.1:7777 закрыто
+2020-02-02 13:59:03,349 DEBUG my_client.py generate_presence_msg Сформировано presence сообщение для пользователя Guest
+2020-02-02 13:59:03,371 DEBUG my_client.py process_server_ans От сервера получен ответ "200 : OK"
+2020-02-02 13:59:03,373 INFO my_client.py main Принят ответ от сервера 200 : OK
+2020-02-02 13:59:03,373 DEBUG my_client.py main Соединение с сервером 127.0.0.1:7777 закрыто
+2020-02-02 14:05:28,749 DEBUG my_client.py generate_presence_msg Сформировано presence сообщение для пользователя Guest
+2020-02-02 14:05:28,767 DEBUG my_client.py process_server_ans От сервера получен ответ "200 : OK"
+2020-02-02 14:05:28,771 INFO my_client.py main Принят ответ от сервера 200 : OK
+2020-02-02 14:05:28,772 DEBUG my_client.py main Соединение с сервером 127.0.0.1:8686 закрыто
+2020-02-02 14:08:36,631 INFO my_client.py main Программа запущена с параметрами server_ip: 127.0.0.1, server_port: 7777
+2020-02-02 14:08:59,873 INFO my_client.py main Программа запущена с параметрами server_ip: 127.0.0.1, server_port: 7777
+2020-02-02 14:08:59,879 DEBUG my_client.py generate_presence_msg Сформировано presence сообщение для пользователя Guest
+2020-02-02 14:08:59,888 DEBUG my_client.py process_server_ans От сервера получен ответ "200 : OK"
+2020-02-02 14:08:59,890 INFO my_client.py main Принят ответ от сервера 200 : OK
+2020-02-02 14:08:59,891 DEBUG my_client.py main Соединение с сервером 127.0.0.1:7777 закрыто

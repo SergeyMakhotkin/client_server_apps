@@ -1,0 +1,30 @@
+2020-02-02 13:58:48,836 DEBUG my_server.py main При запуске переданы аргументы: Namespace(ip_addr='127.0.0.1', port=7777)
+2020-02-02 13:58:48,851 INFO my_server.py main Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: 127.0.0.1. Если адрес не указан, принимаются соединения с любых адресов.
+2020-02-02 13:59:03,325 INFO my_server.py main Установлено соедение с Клиентом ('127.0.0.1', 50364)
+2020-02-02 13:59:03,357 DEBUG decorators.py log_writter вызывается функция generate_presence_msg из модуля __main__функции переданы параметры (),{}функция вернула {'action': 'presence', 'time': 'Sun Feb  2 13:59:03 2020', 'user': {'account_name': 'Guest'}}.была вызвана из main()
+2020-02-02 13:59:03,366 DEBUG my_server.py main От клиента ('127.0.0.1', 50364) получено сообщение: {'action': 'presence', 'time': 'Sun Feb  2 13:59:03 2020', 'user': {'account_name': 'Guest'}}
+2020-02-02 13:59:03,369 DEBUG decorators.py log_writter вызывается функция process_client_message из модуля __main__функции переданы параметры ({'action': 'presence', 'time': 'Sun Feb  2 13:59:03 2020', 'user': {'account_name': 'Guest'}},),{}функция вернула {'response': 200}.была вызвана из main()
+2020-02-02 13:59:03,370 INFO my_server.py main Cформирован ответ клиенту "{'response': 200}"
+2020-02-02 13:59:03,370 INFO my_server.py main Клиенту ('127.0.0.1', 50364) отправлено сообщение "{'response': 200}"
+2020-02-02 13:59:03,371 INFO my_server.py main Соединение c клиентом ('127.0.0.1', 50364) закрывается
+2020-02-02 13:59:03,372 DEBUG decorators.py log_writter вызывается функция process_server_ans из модуля __main__функции переданы параметры ({'response': 200},),{}функция вернула 200 : OK.была вызвана из main()
+2020-02-02 14:00:54,648 DEBUG my_server.py main При запуске переданы аргументы: Namespace(ip_addr='127.0.0.1', port=8686)
+2020-02-02 14:00:54,655 INFO my_server.py main Запущен сервер, порт для подключений: 8686, адрес с которого принимаются подключения: 127.0.0.1. Если адрес не указан, принимаются соединения с любых адресов.
+2020-02-02 14:05:28,749 INFO my_server.py main Установлено соедение с Клиентом ('127.0.0.1', 50367)
+2020-02-02 14:05:28,754 DEBUG decorators.py log_writter вызывается функция generate_presence_msg из модуля __main__функции переданы параметры (),{}функция вернула {'action': 'presence', 'time': 'Sun Feb  2 14:05:28 2020', 'user': {'account_name': 'Guest'}}.была вызвана из main()
+2020-02-02 14:05:28,757 DEBUG my_server.py main От клиента ('127.0.0.1', 50367) получено сообщение: {'action': 'presence', 'time': 'Sun Feb  2 14:05:28 2020', 'user': {'account_name': 'Guest'}}
+2020-02-02 14:05:28,762 DEBUG decorators.py log_writter вызывается функция process_client_message из модуля __main__функции переданы параметры ({'action': 'presence', 'time': 'Sun Feb  2 14:05:28 2020', 'user': {'account_name': 'Guest'}},),{}функция вернула {'response': 200}.была вызвана из main()
+2020-02-02 14:05:28,765 INFO my_server.py main Cформирован ответ клиенту "{'response': 200}"
+2020-02-02 14:05:28,767 INFO my_server.py main Клиенту ('127.0.0.1', 50367) отправлено сообщение "{'response': 200}"
+2020-02-02 14:05:28,768 INFO my_server.py main Соединение c клиентом ('127.0.0.1', 50367) закрывается
+2020-02-02 14:05:28,769 DEBUG decorators.py log_writter вызывается функция process_server_ans из модуля __main__функции переданы параметры ({'response': 200},),{}функция вернула 200 : OK.была вызвана из main()
+2020-02-02 14:08:53,068 DEBUG my_server.py main При запуске переданы аргументы: Namespace(ip_addr='127.0.0.1', port=7777)
+2020-02-02 14:08:53,073 INFO my_server.py main Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: 127.0.0.1. Если адрес не указан, принимаются соединения с любых адресов.
+2020-02-02 14:08:59,879 INFO my_server.py main Установлено соедение с Клиентом ('127.0.0.1', 50383)
+2020-02-02 14:08:59,882 DEBUG decorators.py log_writter вызывается функция generate_presence_msg из модуля __main__функции переданы параметры (),{}функция вернула {'action': 'presence', 'time': 'Sun Feb  2 14:08:59 2020', 'user': {'account_name': 'Guest'}}.была вызвана из main()
+2020-02-02 14:08:59,884 DEBUG my_server.py main От клиента ('127.0.0.1', 50383) получено сообщение: {'action': 'presence', 'time': 'Sun Feb  2 14:08:59 2020', 'user': {'account_name': 'Guest'}}
+2020-02-02 14:08:59,887 DEBUG decorators.py log_writter вызывается функция process_client_message из модуля __main__функции переданы параметры ({'action': 'presence', 'time': 'Sun Feb  2 14:08:59 2020', 'user': {'account_name': 'Guest'}},),{}функция вернула {'response': 200}.была вызвана из main()
+2020-02-02 14:08:59,888 INFO my_server.py main Cформирован ответ клиенту "{'response': 200}"
+2020-02-02 14:08:59,888 INFO my_server.py main Клиенту ('127.0.0.1', 50383) отправлено сообщение "{'response': 200}"
+2020-02-02 14:08:59,889 INFO my_server.py main Соединение c клиентом ('127.0.0.1', 50383) закрывается
+2020-02-02 14:08:59,890 DEBUG decorators.py log_writter вызывается функция process_server_ans из модуля __main__функции переданы параметры ({'response': 200},),{}функция вернула 200 : OK.была вызвана из main()

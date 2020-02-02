@@ -1,8 +1,12 @@
 """функции, используемые и в серверном, и в клиентском скрипте"""
 
 import json
-from my_package.settings import MAX_PACKAGE_LENGTH, ENCODING_TYPE
+from common.settings import MAX_PACKAGE_LENGTH, ENCODING_TYPE
 import argparse
+import log_config.server_log_config
+import logging
+
+SERV_LOGGER = logging.getLogger('app.server')
 
 
 def get_message(client_socket):
@@ -42,5 +46,7 @@ def check_port_range(port_str):
     port_int = int(port_str)
     if port_int in range(1024, 65536):
         return port_int
+    SERV_LOGGER.critical(f'Попытка запуска сервера с указанием неподходящего порта '
+                         f'{port_str}. Допустимы адреса с 1024 до 65535.')
     raise argparse.ArgumentTypeError(
         'Port number out of valid range 1024-65535')
