@@ -4,7 +4,7 @@ import sys
 import os
 import unittest
 from my_server import process_client_message
-from my_package.settings import RESPONSE, ERROR, USER, ACCOUNT_NAME, TIME, ACTION, PRESENCE
+from common.settings import RESPONSE, ERROR, USER, ACCOUNT_NAME, TIME, ACTION, PRESENCE
 
 sys.path.append(os.path.join(os.getcwd(), '..'))
 

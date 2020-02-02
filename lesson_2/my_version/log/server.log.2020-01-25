@@ -1,0 +1,25 @@
+2020-01-25 14:42:40,195 195.94645500183105 CRITICAL server_log_config.py <module> Критическая ошибка
+2020-01-25 14:42:40,195 195.94645500183105 ERROR server_log_config.py <module> Ошибка
+2020-01-25 14:42:40,195 195.94645500183105 DEBUG server_log_config.py <module> дебаг
+2020-01-25 14:42:40,196 196.9461441040039 INFO server_log_config.py <module> Инфо
+2020-01-25 14:43:32,739 CRITICAL server_log_config.py <module> Критическая ошибка
+2020-01-25 14:43:32,739 ERROR server_log_config.py <module> Ошибка
+2020-01-25 14:43:32,739 DEBUG server_log_config.py <module> дебаг
+2020-01-25 14:43:32,739 INFO server_log_config.py <module> Инфо
+2020-01-25 14:48:32,093 CRITICAL server_log_config.py <module> Критическая ошибка
+2020-01-25 14:48:32,093 ERROR server_log_config.py <module> Ошибка
+2020-01-25 14:48:32,093 DEBUG server_log_config.py <module> дебаг
+2020-01-25 14:48:32,094 INFO server_log_config.py <module> Инфо
+2020-01-25 14:49:02,677 CRITICAL server_log_config.py <module> Критическая ошибка
+2020-01-25 14:49:02,677 ERROR server_log_config.py <module> Ошибка
+2020-01-25 14:49:02,678 WARNING server_log_config.py <module> Предупреждение
+2020-01-25 14:49:02,678 INFO server_log_config.py <module> Инфо
+2020-01-25 14:49:02,678 DEBUG server_log_config.py <module> дебаг
+2020-01-25 15:07:40,906 CRITICAL common_functions.py check_port_range Попытка запуска сервера с указанием неподходящего порта 203. Допустимы адреса с 1024 до 65535.
+2020-01-25 15:42:27,296 DEBUG my_server.py main При запуске переданы аргументы: Namespace(ip_addr='127.0.0.1', port=7777)
+2020-01-25 15:42:27,298 INFO my_server.py main Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: 127.0.0.1. Если адрес не указан, принимаются соединения с любых адресов.
+2020-01-25 15:42:50,803 INFO my_server.py main Установлено соедение с Клиентом ('127.0.0.1', 50510)
+2020-01-25 15:42:50,880 DEBUG my_server.py main От клиента ('127.0.0.1', 50510) получено сообщение: {'action': 'presence', 'time': 'Sat Jan 25 15:42:50 2020', 'user': {'account_name': 'Guest'}}
+2020-01-25 15:42:50,880 INFO my_server.py main Cформирован ответ клиенту "{'response': 200}"
+2020-01-25 15:42:50,881 INFO my_server.py main Клиенту ('127.0.0.1', 50510) отправлено сообщение "{'response': 200}"
+2020-01-25 15:42:50,882 INFO my_server.py main Соединение c клиентом ('127.0.0.1', 50510) закрывается

@@ -3,7 +3,7 @@ import sys
 import os
 import unittest
 from my_client import generate_presence_msg, process_server_ans
-from my_package.settings import RESPONSE, ERROR, USER, ACCOUNT_NAME, TIME, ACTION, PRESENCE
+from common.settings import RESPONSE, ERROR, USER, ACCOUNT_NAME, TIME, ACTION, PRESENCE
 
 sys.path.append(os.path.join(os.getcwd(), '..'))
 """добавляем в системную переменную path родительскую дирректорию для поиска модулей"""
