@@ -2,7 +2,7 @@
 import sys
 import os
 import unittest
-from my_client import generate_presence_msg, process_server_ans
+from my_client import generate_presence_msg, process_server_response
 from common.settings import RESPONSE, ERROR, USER, ACCOUNT_NAME, TIME, ACTION, PRESENCE
 
 sys.path.append(os.path.join(os.getcwd(), '..'))
@@ -29,17 +29,17 @@ class TestClass(unittest.TestCase):
     2) ответ 400"""
 
     def test_response_200(self):
-        self.assertEqual(process_server_ans({RESPONSE: 200}), '200 : OK')
+        self.assertEqual(process_server_response({RESPONSE: 200}), '200 : OK')
         """проверяем, что если сервер ответил "200",
         то process_server_ans вернет строку '200 : OK' """
 
     def test_response_400(self):
-        self.assertEqual(process_server_ans(
+        self.assertEqual(process_server_response(
             {RESPONSE: 400, ERROR: 'request error'}), '400 : request error')
 
     def test_no_server_response(self):
         self.assertRaises(
-            ValueError, process_server_ans, {
+            ValueError, process_server_response, {
                 ERROR: 'главное ключ ERROR? сообщение м.б. любое??'})
 
 

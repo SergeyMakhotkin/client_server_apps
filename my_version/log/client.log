@@ -1,0 +1,28 @@
+2020-02-07 18:24:07,406 INFO my_client.py main Запущен клиент для пользователя test3
+2020-02-07 18:24:07,409 INFO my_client.py main Запущен клиент для пользователя test1
+2020-02-07 18:24:07,410 INFO my_client.py main Запущен клиент для пользователя test2
+2020-02-07 18:24:08,000 DEBUG my_client.py generate_presence_msg Сформировано presence сообщение от пользователя test3
+2020-02-07 18:24:08,000 DEBUG my_client.py generate_presence_msg Сформировано presence сообщение от пользователя test1
+2020-02-07 18:24:08,002 DEBUG decorators.py log_writter вызывается функция generate_presence_msg из модуля __main__функции переданы параметры ('test1',),{}функция вернула {'action': 'presence', 'time': 'Fri Feb  7 18:24:07 2020', 'from_user': {'account_name': 'test1'}}.была вызвана из main()
+2020-02-07 18:24:08,002 DEBUG decorators.py log_writter вызывается функция generate_presence_msg из модуля __main__функции переданы параметры ('test2',),{}функция вернула {'action': 'presence', 'time': 'Fri Feb  7 18:24:07 2020', 'from_user': {'account_name': 'test2'}}.была вызвана из main()
+2020-02-07 18:24:08,172 DEBUG my_client.py process_server_response От сервера получен ответ "200 : OK"
+2020-02-07 18:24:08,173 DEBUG decorators.py log_writter вызывается функция process_server_response из модуля __main__функции переданы параметры ({'response': 200},),{}функция вернула 200 : OK.была вызвана из main()
+2020-02-07 18:24:08,173 INFO my_client.py main Установлено соединение с сервером 127.0.0.1 7777. Ответ от сервера: 200 : OK
+2020-02-07 18:24:08,175 DEBUG my_client.py main Запущен поток id:4712 приема сообщений пользователя.
+2020-02-07 18:24:08,175 DEBUG my_client.py main Запущен поток id:11696 интерфейса взаимодействия с пользователем.
+2020-02-07 18:24:08,238 DEBUG my_client.py process_server_response От сервера получен ответ "200 : OK"
+2020-02-07 18:24:08,239 DEBUG decorators.py log_writter вызывается функция process_server_response из модуля __main__функции переданы параметры ({'response': 200},),{}функция вернула 200 : OK.была вызвана из main()
+2020-02-07 18:24:08,239 INFO my_client.py main Установлено соединение с сервером 127.0.0.1 7777. Ответ от сервера: 200 : OK
+2020-02-07 18:24:08,241 DEBUG my_client.py main Запущен поток id:11768 приема сообщений пользователя.
+2020-02-07 18:24:08,241 DEBUG my_client.py main Запущен поток id:10844 интерфейса взаимодействия с пользователем.
+2020-02-07 18:24:08,293 DEBUG my_client.py process_server_response От сервера получен ответ "200 : OK"
+2020-02-07 18:24:08,294 DEBUG decorators.py log_writter вызывается функция process_server_response из модуля __main__функции переданы параметры ({'response': 200},),{}функция вернула 200 : OK.была вызвана из main()
+2020-02-07 18:24:08,294 INFO my_client.py main Установлено соединение с сервером 127.0.0.1 7777. Ответ от сервера: 200 : OK
+2020-02-07 18:24:08,297 DEBUG my_client.py main Запущен поток id:11196 приема сообщений пользователя.
+2020-02-07 18:24:08,298 DEBUG my_client.py main Запущен поток id:9092 интерфейса взаимодействия с пользователем.
+2020-02-07 18:24:31,001 INFO my_client.py create_message_to_user Сформировано сообщение для отправки пользователю test1
+2020-02-07 18:24:31,002 DEBUG my_client.py create_message_to_user {'action': 'message', 'from_user': 'test3', 'to_user': 'test1', 'time': 'Fri Feb  7 18:24:31 2020', 'message_text': 'сообщение для test1'}
+2020-02-07 18:24:31,002 INFO my_client.py create_message_to_user сообщение для пользователя test1 отправлено на сервер
+2020-02-07 18:24:31,073 DEBUG decorators.py log_writter вызывается функция create_message_to_user из модуля __main__функции переданы параметры (<socket.socket fd=804, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 33365), raddr=('127.0.0.1', 7777)>, 'test3'),{}функция вернула None.была вызвана из self._bootstrap_inner()
+2020-02-07 18:24:31,212 INFO my_client.py get_message_from_server Получено сообщение от пользователя test3
+2020-02-07 18:24:31,212 DEBUG my_client.py get_message_from_server сообщение для test1

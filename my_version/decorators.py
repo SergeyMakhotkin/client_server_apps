@@ -8,10 +8,10 @@ from traceback import format_stack
 from inspect import stack
 
 # Определим, какой логгер вызваем
-if argv[0].find('my_client') == 1:
-    LOGGER = logging.getLogger('app.client')
-else:
+if argv[0].find('my_client') == -1:
     LOGGER = logging.getLogger('app.server')
+else:
+    LOGGER = logging.getLogger('app.client')
 
 
 def log(function):

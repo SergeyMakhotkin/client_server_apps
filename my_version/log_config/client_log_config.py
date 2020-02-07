@@ -32,7 +32,7 @@ FILE_HANDLER.setLevel(logging.DEBUG)
 # Создаем логгер
 LOG = logging.getLogger('app.client')
 LOG.addHandler(FILE_HANDLER)
-LOG.addHandler(STEAM_HANDLER)
+# LOG.addHandler(STEAM_HANDLER)
 LOG.setLevel(CLIENT_LOGGING_LEVEL)
 
 # отладка конфига логгера
